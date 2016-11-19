@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1DB5EC6D-6096-4BAE-9581-EE60872ECB04}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MTMS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\boost_1_62_0;C:\Program Files\ZeroMQ 4.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\ZeroMQ 4.0.4\lib;D:\boost_1_62_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\projects\IAMachine\deps\boost.win32;$(ProjectDir)zmq\include;C:\Project\IA978\mtcp\deps\boost.win32;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\projects\IAMachine\deps\boost.win32\stage\lib;$(ProjectDir)zmq\lib;C:\Project\IA978\mtcp\deps\boost.win32\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libzmq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(MSBuildProjectDirectory)\libzmq.dll $(TargetDir)\libzmq.dll 
+copy $(MSBuildProjectDirectory)\load.xml $(TargetDir)\load.xml </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CallDll.h" />
+    <ClInclude Include="CLog.h" />
+    <ClInclude Include="FrameBase.h" />
+    <ClInclude Include="JsonHelper.h" />
+    <ClInclude Include="ml_mtcp.h" />
+    <ClInclude Include="MTCPConnection.h" />
+    <ClInclude Include="MTCProto.h" />
+    <ClInclude Include="mtcp_module.h" />
+    <ClInclude Include="MTCP_Rosaline.h" />
+    <ClInclude Include="MTCP_Rosaline_v12.h" />
+    <ClInclude Include="MTCP_Rosaline_v13.h" />
+    <ClInclude Include="MTCP_Rosaline_v8.h" />
+    <ClInclude Include="MTO.h" />
+    <ClInclude Include="TMHandler.h" />
+    <ClInclude Include="zmq.h" />
+    <ClInclude Include="ZmqReplyer.h" />
+    <ClInclude Include="zmqsubscriber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CLog.cpp" />
+    <ClCompile Include="FrameBase.cpp" />
+    <ClCompile Include="JsonHelper.cpp" />
+    <ClCompile Include="mainProcess.cpp" />
+    <ClCompile Include="MTCPConnection.cpp" />
+    <ClCompile Include="PacketItemCpp\ALPH.cpp" />
+    <ClCompile Include="PacketItemCpp\ALPR.cpp" />
+    <ClCompile Include="PacketItemCpp\BMPF.cpp" />
+    <ClCompile Include="PacketItemCpp\CTES.cpp" />
+    <ClCompile Include="PacketItemCpp\CTSS.cpp" />
+    <ClCompile Include="PacketItemCpp\DPCK.cpp" />
+    <ClCompile Include="PacketItemCpp\DPWC.cpp" />
+    <ClCompile Include="PacketItemCpp\DPWR.cpp" />
+    <ClCompile Include="PacketItemCpp\EMCT.cpp" />
+    <ClCompile Include="PacketItemCpp\FLDI.cpp" />
+    <ClCompile Include="PacketItemCpp\FLDP.cpp" />
+    <ClCompile Include="PacketItemCpp\INIT.cpp" />
+    <ClCompile Include="PacketItemCpp\POST.cpp" />
+    <ClCompile Include="PacketItemCpp\SEQU.cpp" />
+    <ClCompile Include="PacketItemCpp\TSCR.cpp" />
+    <ClCompile Include="PacketItemCpp\TSED.cpp" />
+    <ClCompile Include="PacketItemCpp\VCAL.cpp" />
+    <ClCompile Include="PacketItemCpp\VDCR.cpp" />
+    <ClCompile Include="PacketItemCpp\VTST.cpp" />
+    <ClCompile Include="PacketItemCpp\VTSTPOST.cpp" />
+    <ClCompile Include="PacketItemCpp\YGTR.cpp" />
+    <ClCompile Include="PacketItemCpp\YGTS.cpp" />
+    <ClCompile Include="PacketItemCpp\YGTSPOST.cpp" />
+    <ClCompile Include="PacketItemCpp\YGWC.cpp" />
+    <ClCompile Include="PacketItemCpp\YGWR.cpp" />
+    <ClCompile Include="TMHandler.cpp" />
+    <ClCompile Include="ZmqReplyer.cpp" />
+    <ClCompile Include="ZmqSubscriber.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libzmq.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\MTMS接收数据格式.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="load.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

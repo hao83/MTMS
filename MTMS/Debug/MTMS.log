@@ -1,0 +1,82 @@
+﻿生成启动时间为 2016/11/19 23:22:00。
+     1>项目“D:\qqqq\mtms\MTMS\MTMS.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         copy D:\qqqq\mtms\MTMS\libzmq.dll D:\qqqq\mtms\Debug\\libzmq.dll 
+         copy D:\qqqq\mtms\MTMS\load.xml D:\qqqq\mtms\Debug\\load.xml 
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+       ClCompile:
+         E:\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mainProcess.cpp
+         mainProcess.cpp
+     1>d:\qqqq\mtms\mtms\ml_mtcp.h(17): warning C4068: 未知的杂注
+     1>d:\qqqq\mtms\mtms\ml_mtcp.h(18): warning C4068: 未知的杂注
+     1>d:\qqqq\mtms\mtms\ml_mtcp.h(85): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(454): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(449): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(472): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(467): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(490): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(485): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(508): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(503): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(526): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(521): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(544): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\qqqq\mtms\mtms\mtcp_module.h(539): warning C4101: “dd”: 未引用的局部变量
+     1>d:\qqqq\mtms\mtms\jsonhelper.h(31): warning C4800: “const uint32_t *”: 将值强制为布尔值“true”或“false”(性能警告)
+                 d:\qqqq\mtms\mtms\mainprocess.cpp(588): 参见对正在编译的函数 模板 实例化“void JsonWirter::WriteJson<const char[15],uint32_t[256]>(R (&),const T (&))”的引用
+                 with
+                 [
+                     R=const char [15]
+         ,            T=uint32_t [256]
+                 ]
+     1>d:\qqqq\mtms\mtms\jsonhelper.h(31): warning C4800: “const uint8_t *”: 将值强制为布尔值“true”或“false”(性能警告)
+                 d:\qqqq\mtms\mtms\mainprocess.cpp(590): 参见对正在编译的函数 模板 实例化“void JsonWirter::WriteJson<const char[15],uint8_t[8]>(R (&),const T (&))”的引用
+                 with
+                 [
+                     R=const char [15]
+         ,            T=uint8_t [8]
+                 ]
+       Link:
+         E:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qqqq\mtms\Debug\MTMS.exe" /INCREMENTAL /NOLOGO libzmq.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\qqqq\mtms\Debug\MTMS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qqqq\mtms\Debug\MTMS.lib" /MACHINE:X86 Debug\CLog.obj
+         Debug\FrameBase.obj
+         Debug\JsonHelper.obj
+         Debug\mainProcess.obj
+         Debug\MTCPConnection.obj
+         Debug\ALPH.obj
+         Debug\ALPR.obj
+         Debug\BMPF.obj
+         Debug\CTES.obj
+         Debug\CTSS.obj
+         Debug\DPCK.obj
+         Debug\DPWC.obj
+         Debug\DPWR.obj
+         Debug\EMCT.obj
+         Debug\FLDI.obj
+         Debug\FLDP.obj
+         Debug\INIT.obj
+         Debug\POST.obj
+         Debug\SEQU.obj
+         Debug\TSCR.obj
+         Debug\TSED.obj
+         Debug\VCAL.obj
+         Debug\VDCR.obj
+         Debug\VTST.obj
+         Debug\VTSTPOST.obj
+         Debug\YGTR.obj
+         Debug\YGTS.obj
+         Debug\YGTSPOST.obj
+         Debug\YGWC.obj
+         Debug\YGWR.obj
+         Debug\TMHandler.obj
+         Debug\ZmqReplyer.obj
+         Debug\ZmqSubscriber.obj
+         libzmq.lib
+         MTMS.vcxproj -> D:\qqqq\mtms\Debug\MTMS.exe
+     1>已完成生成项目“D:\qqqq\mtms\MTMS\MTMS.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.39

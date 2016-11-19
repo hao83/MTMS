@@ -1,0 +1,107 @@
+﻿Build started 2016/11/17 17:03:49.
+     1>Project "C:\Project\IA978-MTCP\mtms\MTMS\MTMS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PacketItemCpp\VTST.cpp PacketItemCpp\VTSTPOST.cpp
+         VTST.cpp
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(17): warning C4068: unknown pragma
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(18): warning C4068: unknown pragma
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(85): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(454): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(449): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(472): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(467): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(490): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(485): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(508): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(503): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(526): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(521): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(544): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(539): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTST.cpp(53): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTST.cpp(47): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTST.cpp(72): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTST.cpp(67): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTST.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTST.cpp(172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTST.cpp(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTST.cpp(206): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         VTSTPOST.cpp
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(17): warning C4068: unknown pragma
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(18): warning C4068: unknown pragma
+     1>c:\project\ia978-mtcp\mtms\mtms\ml_mtcp.h(85): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(454): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(449): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(472): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(467): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(490): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(485): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(508): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(503): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(526): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(521): warning C4101: 'dd' : unreferenced local variable
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(544): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ia978-mtcp\mtms\mtms\packetitemcpp\../mtcp_module.h(539): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(20): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(21): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(49): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(78): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(73): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(97): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(92): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(111): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(135): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(130): warning C4101: 'dd' : unreferenced local variable
+     1>PacketItemCpp\VTSTPOST.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(212): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(232): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(236): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PacketItemCpp\VTSTPOST.cpp(240): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\IA978-MTCP\mtms\Release\MTMS.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Project\IA978-MTCP\mtms\Release\MTMS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\IA978-MTCP\mtms\Release\MTMS.lib" /MACHINE:X86 /SAFESEH Release\CLog.obj
+         Release\FrameBase.obj
+         Release\JsonHelper.obj
+         Release\mainProcess.obj
+         Release\MTCPConnection.obj
+         Release\ALPH.obj
+         Release\ALPR.obj
+         Release\BMPF.obj
+         Release\CTES.obj
+         Release\CTSS.obj
+         Release\DPCK.obj
+         Release\DPWC.obj
+         Release\DPWR.obj
+         Release\EMCT.obj
+         Release\FLDI.obj
+         Release\FLDP.obj
+         Release\INIT.obj
+         Release\POST.obj
+         Release\SEQU.obj
+         Release\TSCR.obj
+         Release\TSED.obj
+         Release\VCAL.obj
+         Release\VDCR.obj
+         Release\VTST.obj
+         Release\VTSTPOST.obj
+         Release\YGTR.obj
+         Release\YGTS.obj
+         Release\YGTSPOST.obj
+         Release\YGWC.obj
+         Release\YGWR.obj
+         Release\TMHandler.obj
+         Release\ZmqReplyer.obj
+         Release\ZmqSubscriber.obj
+         libzmq.lib
+            Creating library C:\Project\IA978-MTCP\mtms\Release\MTMS.lib and object C:\Project\IA978-MTCP\mtms\Release\MTMS.exp
+         Generating code
+         Finished generating code
+         MTMS.vcxproj -> C:\Project\IA978-MTCP\mtms\Release\MTMS.exe
+     1>Done Building Project "C:\Project\IA978-MTCP\mtms\MTMS\MTMS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.54

@@ -1,0 +1,17 @@
+[
+	{
+	"I_pluse":3.14,
+	"V_pluse":2.35,
+	"optical_power":88415,
+	"V_pluse_raw[10]":[1.02,2457,1253,125,632,125],
+	"optical_power_row[340]":[3.549,2.516,5.66464]
+	},
+
+	{
+	"I_pluse":45.25,
+	"V_pluse":540.88,
+	"optical_power":2.658,
+	"V_pluse_raw[10]":[10.25,25.38,10.96],
+	"optical_power_row[340]":[0.26,2.264,2.58]
+	}
+]

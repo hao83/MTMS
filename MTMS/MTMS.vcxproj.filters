@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MTCP">
+      <UniqueIdentifier>{81412b35-bba6-43aa-bca5-012b9a01d88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PacketItemCpp">
+      <UniqueIdentifier>{434e8f9c-9d10-417c-934c-b51e5bf337d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameBase.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTO.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcp_module.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCP_Rosaline_v8.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="ml_mtcp.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCPConnection.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCProto.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TMHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zmq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZmqReplyer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zmqsubscriber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CallDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCP_Rosaline_v12.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCP_Rosaline.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MTCP_Rosaline_v13.h">
+      <Filter>头文件\MTCP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MTCPConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\ALPH.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\ALPR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\BMPF.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\DPCK.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\DPWC.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\DPWR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\EMCT.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\FLDI.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\FLDP.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\INIT.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\POST.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\SEQU.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\TSCR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\TSED.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\VCAL.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\VDCR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\VTST.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TMHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZmqReplyer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZmqSubscriber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\YGTR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\YGTS.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\YGWC.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\YGWR.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="mainProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\CTES.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\CTSS.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\VTSTPOST.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketItemCpp\YGTSPOST.cpp">
+      <Filter>源文件\PacketItemCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libzmq.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\MTMS接收数据格式.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="load.xml" />
+  </ItemGroup>
+</Project>
